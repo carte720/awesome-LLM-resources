@@ -1,6 +1,6 @@
 ![](./assets/logo6.png)
 
-<p align="center">全世界最好的大语言模型资源汇总 持续更新</p>
+<p align="center">The World's Best Large Language Model Resource Collection, Continuously Updated</p>
 
 <p align="center">
   <a href="https://github.com/WangRongsheng/awesome-LLM-resourses"><img src=https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg ></a>
@@ -12,65 +12,65 @@
 </p>
 
 > [!TIP]
-> 如果您对**医疗数据集/大模型/多模态/评估相关资源感兴趣**！请访问我们的 🤗 [Awesome-AI4Med](https://github.com/FreedomIntelligence/Awesome-AI4Med) !
+> If you are interested in **medical datasets/large models/multimodal/evaluation related resources**! Please visit our 🤗 [Awesome-AI4Med](https://github.com/FreedomIntelligence/Awesome-AI4Med) !
 
 ---
 
 #### Contents
 
-- [推荐 Suggestion](#推荐-Suggestion)
-- [数据 Data](#数据-Data)
-- [微调 Fine-Tuning](#微调-Fine-Tuning)
+- [Suggestion](#Suggestion)
+- [Data](#Data)
+- [Fine-Tuning](#Fine-Tuning)
 - [Agentic RL](#Agentic-RL)
-- [推理 Inference](#推理-Inference)
-- [评估 Evaluation](#评估-Evaluation)
-- [体验 Usage](#体验-Usage)
-- [知识库 RAG](#知识库-RAG)
-- [智能体 Agents](#智能体-Agents)
-- [研究 Research](#研究-Research)
-- [代码 Coding](#代码-Coding)
-- [视频 Video](#视频-Video)
-- [图片 Image](#图片-Image)
-- [搜索 Search](#搜索-Search)
-- [语音 Speech](#语音-Speech)
-- [统一模型 Unified Model](#统一模型-Unified-Model)
-- [书籍 Book](#书籍-Book)
-- [课程 Course](#课程-Course)
-- [教程 Tutorial](#教程-Tutorial)
-- [论文 Paper](#论文-Paper)
-- [社区 Community](#社区-Community)
-- [模型上下文协议 MCP](#模型上下文协议-MCP)
-- [技能 Skills](#技能-Skills)
-- [推理 Open o1](#推理-Open-o1)
-- [推理 Open o3](#推理-Open-o3)
-- [小语言模型 Small Language Model](#小语言模型-Small-Language-Model)
-- [小多模态模型 Small Vision Language Model](#小多模态模型-Small-Vision-Language-Model)
-- [技巧 Tips](#技巧-tips)
+- [Inference](#Inference)
+- [Evaluation](#Evaluation)
+- [Usage](#Usage)
+- [RAG](#RAG)
+- [Agents](#Agents)
+- [Research](#Research)
+- [Coding](#Coding)
+- [Video](#Video)
+- [Image](#Image)
+- [Search](#Search)
+- [Speech](#Speech)
+- [Unified Model](#Unified-Model)
+- [Book](#Book)
+- [Course](#Course)
+- [Tutorial](#Tutorial)
+- [Paper](#Paper)
+- [Community](#Community)
+- [MCP](#MCP)
+- [Skills](#Skills)
+- [Open o1](#Open-o1)
+- [Open o3](#Open-o3)
+- [Small Language Model](#Small-Language-Model)
+- [Small Vision Language Model](#Small-Vision-Language-Model)
+- [Tips](#Tips)
 
 ![](https://camo.githubusercontent.com/2722992d519a722218f896d5f5231d49f337aaff4514e78bd59ac935334e916a/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67)
 
-## 推荐 Suggestion
+## Suggestion
 
 #### Podcast
 
-- [翁家翌：OpenAI，GPT，强化学习，Infra，后训练，天授，tuixue，开源，CMU，清华｜WhynotTV Podcast](https://www.bilibili.com/video/BV1darmBcE4A?vd_source=c739db1ebdd361d47af5a0b8497417db)
-- [Lovart 创始人陈冕×罗永浩！且让我大闹一场，然后悄然离去](https://www.bilibili.com/video/BV14eiQBmEbN/?spm_id_from=333.1387.upload.video_card.click)
-- [MiniMax 创始人闫俊杰×罗永浩！大山并非无法翻越](https://www.bilibili.com/video/BV11NmtBzE36/?spm_id_from=333.1387.upload.video_card.click&vd_source=c739db1ebdd361d47af5a0b8497417db)
-- [影视飓风TIM×罗永浩！用影像打开世界的梦想家](https://www.bilibili.com/video/BV1B5xkzPEhx/?spm_id_from=333.1387.upload.video_card.click&vd_source=c739db1ebdd361d47af5a0b8497417db)
-- [129. 全球大模型第一股的上市访谈，和智谱CEO张鹏聊：敢问路在何方？](https://www.youtube.com/watch?v=9zSMTUUEfmU&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=2)
-- [128. Manus决定出售前最后的访谈：啊，这奇幻的2025年漂流啊…](https://www.youtube.com/watch?v=MW-ezf2RhVg&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=3)
-- [122. 朱啸虎现实主义故事的第三次连载：人工智能的盛筵与泡泡](https://www.youtube.com/watch?v=wK0-m3rKgZ0&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=9)
-- [119. Kimi Linear、Minimax M2？和杨松琳考古算法变种史，并预演未来架构改进方案](https://www.youtube.com/watch?v=858HR43pegk&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=12&t=1070s)
-- [118. 对李想的第二次3小时访谈：CEO大模型、MoE、梁文锋、VLA、能量、记忆、对抗人性、亲密关系、人类的智慧](https://www.youtube.com/watch?v=RxXVq7-sJzM&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=13)
-- [115. 对OpenAI姚顺雨3小时访谈：6年Agent研究、人与系统、吞噬的边界、既单极又多元的世界](https://www.youtube.com/watch?v=gQgKkUsx5q0&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=16)
-- [113. 和杨植麟时隔1年的对话：K2、Agentic LLM、缸中之脑和“站在无限的开端”](https://www.youtube.com/watch?v=ouG6jrkECrc&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=18)
+- [Weng Jiayi: OpenAI, GPT, Reinforcement Learning, Infra, Post-Training, Natural Talent, tuixue, Open Source, CMU, Tsinghua | WhynotTV Podcast](https://www.bilibili.com/video/BV1darmBcE4A?vd_source=c739db1ebdd361d47af5a0b8497417db)
+- [Lovart Founder Chen Mian × Luo Yonghao! Let Me Make a Scene, Then Quietly Leave](https://www.bilibili.com/video/BV14eiQBmEbN/?spm_id_from=333.1387.upload.video_card.click)
+- [MiniMax Founder Yan Junjie × Luo Yonghao! Mountains Are Not Insurmountable](https://www.bilibili.com/video/BV11NmtBzE36/?spm_id_from=333.1387.upload.video_card.click&vd_source=c739db1ebdd361d47af5a0b8497417db)
+- [Yingshi Hurricane TIM × Luo Yonghao! The Dreamer Who Opens the World Through Images](https://www.bilibili.com/video/BV1B5xkzPEhx/?spm_id_from=333.1387.upload.video_card.click&vd_source=c739db1ebdd361d47af5a0b8497417db)
+- [129. IPO Interview with the World's First Listed LLM Company, Chatting with Zhipu CEO Zhang Peng: Where Does the Road Lead?](https://www.youtube.com/watch?v=9zSMTUUEfmU&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=2)
+- [128. Manus's Final Interview Before Deciding to Sell: Ah, This Fantastical 2025 Drift...](https://www.youtube.com/watch?v=MW-ezf2RhVg&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=3)
+- [122. Zhu Xiaohu's Realism Story Part 3: The Feast and Bubble of Artificial Intelligence](https://www.youtube.com/watch?v=wK0-m3rKgZ0&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=9)
+- [119. Kimi Linear, Minimax M2? Exploring Algorithm Variant History with Yang Songlin and Previewing Future Architecture Improvements](https://www.youtube.com/watch?v=858HR43pegk&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=12&t=1070s)
+- [118. Second 3-hour Interview with Li Xiang: CEO LLMs, MoE, Liang Wenfeng, VLA, Energy, Memory, Countering Human Nature, Intimate Relationships, Human Wisdom](https://www.youtube.com/watch?v=RxXVq7-sJzM&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=13)
+- [115. 3-hour Interview with OpenAI's Yao Shunyu: 6 Years of Agent Research, People and Systems, Expanding Boundaries, a Unipolar Yet Pluralistic World](https://www.youtube.com/watch?v=gQgKkUsx5q0&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=16)
+- [113. A Conversation with Yang Zhilin One Year Later: K2, Agentic LLM, Brain in a Vat, and "Standing at the Infinite Beginning"](https://www.youtube.com/watch?v=ouG6jrkECrc&list=PLwAchVoh-4zNSI5UlKEkKCL5r_jJyrFeO&index=18)
 - [A 7-hour marathon interview with Saining Xie: World Models, AMI Labs, Yann LeCun, Fei-Fei Li, and 42](https://www.youtube.com/watch?v=rIwgZWzUKm8)
 
-## 数据 Data
+## Data
 
 > [!NOTE]
 > 
-> 此处命名为`数据`，但这里并没有提供具体数据集，而是提供了处理获取大规模数据的方法
+> Named "Data" here, but no specific datasets are provided; instead, methods for processing and obtaining large-scale data are provided
 
 
 1. [AotoLabel](https://github.com/refuel-ai/autolabel): Label, clean and enrich text datasets with LLMs.
@@ -112,7 +112,7 @@
 37. [ContextGem](https://github.com/shcherbak-ai/contextgem): a free, open-source LLM framework that makes it radically easier to extract structured data and insights from documents.
 38. [OCRFlux](https://github.com/chatdoc-com/OCRFlux): a lightweight yet powerful multimodal toolkit that significantly advances PDF-to-Markdown conversion, excelling in complex layout handling, complicated table parsing and cross-page content merging.
 39. [DataFlow](https://github.com/OpenDCAI/DataFlow): Easy Data Preparation with latest LLMs-based Operators and Pipelines.
-40. [DatasetLoom (`multimodal`)](https://github.com/599yongyang/DatasetLoom): 一个面向多模态大模型训练的智能数据集构建与评估平台.
+40. [DatasetLoom (`multimodal`)](https://github.com/599yongyang/DatasetLoom): An intelligent dataset building and evaluation platform for multimodal large model training.
 41. [Logics-Parsing](https://github.com/alibaba/Logics-Parsing)
 42. [DeepSeek-OCR](https://huggingface.co/deepseek-ai/DeepSeek-OCR)
 43. [PaddleOCR-VL](https://huggingface.co/PaddlePaddle/PaddleOCR-VL)
@@ -126,13 +126,13 @@
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 微调 Fine-Tuning
+## Fine-Tuning
 
 1. [LLaMA-Factory (`🔥`)](https://github.com/hiyouga/LLaMA-Factory): Unify Efficient Fine-Tuning of 100+ LLMs.
 2. [360-LLaMA-Factory](https://github.com/Qihoo360/360-LLaMA-Factory): Unify Efficient Fine-Tuning of 100+ LLMs. (add Sequence Parallelism for supporting long context training)
 4. [unsloth](https://github.com/unslothai/unsloth): 2-5X faster 80% less memory LLM finetuning.
 5. [TRL](https://huggingface.co/docs/trl/index): Transformer Reinforcement Learning.
-6. [Firefly](https://github.com/yangjianxin1/Firefly): Firefly: 大模型训练工具，支持训练数十种大模型
+6. [Firefly](https://github.com/yangjianxin1/Firefly): Firefly: A large model training tool supporting dozens of large models.
 7. [Xtuner](https://github.com/InternLM/xtuner): An efficient, flexible and full-featured toolkit for fine-tuning large models.
 8. [torchtune](https://github.com/pytorch/torchtune): A Native-PyTorch Library for LLM Fine-tuning.
 9. [Swift](https://github.com/modelscope/swift): Use PEFT or Full-parameter to finetune 200+ LLMs or 15+ MLLMs.
@@ -194,7 +194,7 @@
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 推理 Inference
+## Inference
 
 1. [ollama](https://github.com/ollama/ollama): Get up and running with Llama 3, Mistral, Gemma, and other large language models.
 2. [Open WebUI](https://github.com/open-webui/open-webui): User-friendly WebUI for LLMs (Formerly Ollama WebUI).
@@ -256,7 +256,7 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 评估 Evaluation
+## Evaluation
 
 1. [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness): A framework for few-shot evaluation of language models.
 2. [opencompass](https://github.com/open-compass/opencompass): OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets.
@@ -278,25 +278,25 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
 18. [MedEvalKit](https://github.com/alibaba-damo-academy/MedEvalKit): A Unified Medical Evaluation Framework.
 19. [OpenJudge](https://github.com/modelscope/OpenJudge): A Unified Framework for Holistic Evaluation and Quality Rewards.
 
-`LLM API 服务平台`：
+`LLM API Service Platforms`:
 1. [Groq](https://groq.com/)
-2. [硅基流动](https://cloud.siliconflow.cn/models)
-3. [火山引擎](https://www.volcengine.com/product/ark)
-4. [文心千帆](https://qianfan.cloud.baidu.com/)
+2. [SiliconFlow](https://cloud.siliconflow.cn/models)
+3. [Volcengine](https://www.volcengine.com/product/ark)
+4. [Wenxin Qianfan](https://qianfan.cloud.baidu.com/)
 5. [DashScope](https://dashscope.aliyun.com/)
 6. [aisuite](https://github.com/andrewyng/aisuite)
 7. [DeerAPI](https://www.deerapi.com/)
 8. [Qwen-Chat](https://chat.qwenlm.ai/)
 9. [DeepSeek-v3](https://www.deepseek.com/)
-10. [WaveSpeed](https://wavespeed.ai/) `视频生成`
+10. [WaveSpeed](https://wavespeed.ai/) `Video Generation`
 11. [OpenRouter](https://openrouter.ai/)
-12. [数标标 (`🔥`)](https://api.ai-gaochao.cn/)
+12. [Shubiaobiao (`🔥`)](https://api.ai-gaochao.cn/)
 
 <div align="right">
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 体验 Usage
+## Usage
 
 1. [LM Arena](https://lmarena.ai/zh)
 2. [Design Arena](https://www.designarena.ai/)
@@ -305,14 +305,14 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 知识库 RAG
+## RAG
 
 1. [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm): The all-in-one AI app for any LLM with full RAG and AI Agent capabilites.
-2. [MaxKB](https://github.com/1Panel-dev/MaxKB): 基于 LLM 大语言模型的知识库问答系统。开箱即用，支持快速嵌入到第三方业务系统
+2. [MaxKB](https://github.com/1Panel-dev/MaxKB): A knowledge base Q&A system based on LLM. Ready to use out of the box, supports quick embedding into third-party business systems.
 3. [RAGFlow](https://github.com/infiniflow/ragflow): An open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.
 4. [Dify](https://github.com/langgenius/dify): An open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.
 5. [FastGPT](https://github.com/labring/FastGPT): A knowledge-based platform built on the LLM, offers out-of-the-box data processing and model invocation capabilities, allows for workflow orchestration through Flow visualization.
-6. [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat): 基于 Langchain 与 ChatGLM 等不同大语言模型的本地知识库问答
+6. [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat): Local knowledge base Q&A based on Langchain and ChatGLM and other large language models.
 7. [QAnything](https://github.com/netease-youdao/QAnything): Question and Answer based on Anything.
 8. [Quivr](https://github.com/QuivrHQ/quivr): A personal productivity assistant (RAG) ⚡️🤖 Chat with your docs (PDF, CSV, ...) & apps using Langchain, GPT 3.5 / 4 turbo, Private, Anthropic, VertexAI, Ollama, LLMs, Groq that you can share with users ! Local & Private alternative to OpenAI GPTs & ChatGPT powered by retrieval-augmented generation.
 9. [RAG-GPT](https://github.com/open-kf/rag-gpt): RAG-GPT, leveraging LLM and RAG technology, learns from user-customized knowledge bases to provide contextually relevant answers for a wide range of queries, ensuring rapid and accurate information retrieval.
@@ -347,7 +347,7 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 智能体 Agents
+## Agents
 
 1. [AutoGen](https://github.com/microsoft/autogen): AutoGen is a framework that enables the development of LLM applications using multiple agents that can converse with each other to solve tasks. [AutoGen AIStudio](https://autogen-studio.com/)
 2. [CrewAI](https://github.com/joaomdmoura/crewAI): Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
@@ -357,10 +357,10 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
 6. [MobileAgent](https://github.com/X-PLUG/MobileAgent): The Powerful Mobile Device Operation Assistant Family.
 7. [Lagent](https://github.com/InternLM/lagent): A lightweight framework for building LLM-based agents.
 8. [Qwen-Agent](https://github.com/QwenLM/Qwen-Agent): Agent framework and applications built upon Qwen2, featuring Function Calling, Code Interpreter, RAG, and Chrome extension.
-9. [LinkAI](https://link-ai.tech/portal): 一站式 AI 智能体搭建平台
+9. [LinkAI](https://link-ai.tech/portal): One-stop AI agent building platform.
 10. [Baidu APPBuilder](https://appbuilder.cloud.baidu.com/)
 11. [agentUniverse](https://github.com/alipay/agentUniverse): agentUniverse is a LLM multi-agent framework that allows developers to easily build multi-agent applications. Furthermore, through the community, they can exchange and share practices of patterns across different domains.
-12. [LazyLLM](https://github.com/LazyAGI/LazyLLM): 低代码构建多Agent大模型应用的开发工具
+12. [LazyLLM](https://github.com/LazyAGI/LazyLLM): Low-code development tool for building multi-agent large model applications.
 13. [AgentScope](https://github.com/modelscope/agentscope): Start building LLM-empowered multi-agent applications in an easier way.
 14. [MoA](https://github.com/togethercomputer/MoA): Mixture of Agents (MoA) is a novel approach that leverages the collective strengths of multiple LLMs to enhance performance, achieving state-of-the-art results.
 15. [Agently](https://github.com/Maplemx/Agently): AI Agent Application Development Framework.
@@ -387,10 +387,10 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
 36. [ii-agent](https://github.com/Intelligent-Internet/ii-agent): a new open-source framework to build and deploy intelligent agents.
 37. [OWL](https://github.com/camel-ai/owl): Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation.
 38. [OpenManus](https://github.com/FoundationAgents/OpenManus): No fortress, purely open ground. OpenManus is Coming.
-39. [JoyAgent-JDGenie](https://github.com/jd-opensource/joyagent-jdgenie): 业界首个开源高完成度轻量化通用多智能体产品.
+39. [JoyAgent-JDGenie](https://github.com/jd-opensource/joyagent-jdgenie): The industry's first open-source, high-completion, lightweight, general-purpose multi-agent product.
 40. [coze-studio](https://github.com/coze-dev/coze-studio): An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before.
 41. [OxyGent](https://github.com/jd-opensource/OxyGent): An advanced Python framework that empowers developers to quickly build production-ready intelligent systems.
-42. [LazyCraft](https://github.com/LazyAGI/LazyCraft): LazyCraft 是一个基于 LazyLLM 构建的 AI Agent 应用开发与管理平台，旨在协助开发者以 低门槛、低成本 快速构建和发布大模型应用。
+42. [LazyCraft](https://github.com/LazyAGI/LazyCraft): LazyCraft is an AI Agent application development and management platform built on LazyLLM, designed to help developers quickly build and publish large model applications with low barriers and low costs.
 43. [OpenAgents](https://github.com/openagents-org/openagents): AI Agent Networks for Open Collaboration.
 44. [SandBox](https://github.com/agent-infra/sandbox): All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode Server in a single Docker container.
 45. [DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze): First agentic LLM for autonomous data science, supporting specific data tasks (data preparation, analysis, modeling, visualization, and insight) and data-oriented deep research (produce analyst-grade research reports).
@@ -404,23 +404,23 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 研究 Research
+## Research
 
-#### 写作
+#### Writing
 
 - PaperDebugger: https://github.com/PaperDebugger/PaperDebugger
 - Chat Overleaf: https://github.com/anuin-cat/chat-overleaf
-- 文智云助手: https://overleaf.top/
+- Wenzhi Cloud Assistant: https://overleaf.top/
 - LiteWrite: https://litewrite.ai/
 - Prism: https://openai.com/zh-Hans-CN/prism/
 
-#### 审稿
+#### Paper Review
 
 - PaperReview: https://paperreview.ai/
 - aiXiv: https://aixiv.science/
 - OpenJudge Review: https://openjudge.me/paper_review
 
-#### 其他
+#### Other
 
 - Paper2Video: https://github.com/showlab/Paper2Video
 - Paper2Poster: https://github.com/Paper2Poster/Paper2Poster
@@ -436,7 +436,7 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
 - PaperBanana: https://github.com/dwzhu-pku/PaperBanana
 - PaperBanana-Pro: https://github.com/elpsykongloo/PaperBanana-Pro
 
-#### 全自动科研
+#### Fully Automated Research
 
 - EvoScientist: https://github.com/EvoScientist/EvoScientist
 - Auto-claude-code-research-in-sleep: https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep
@@ -454,7 +454,7 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 代码 Coding
+## Coding
 
 1. [Cloi CLI](https://github.com/cloi-ai/cloi): Local debugging agent that runs in your terminal.
 2. [Devin](https://devin.ai/)
@@ -485,9 +485,9 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 视频 Video
+## Video
 
-#### 模型
+#### Models
 
 > [!NOTE]
 > 🤝[Awesome-Video-Diffusion](https://github.com/showlab/Awesome-Video-Diffusion)
@@ -504,24 +504,24 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
 10. [ICEdit](https://github.com/River-Zhang/ICEdit) `Editing`
 11. [mochi-1-preview](https://huggingface.co/genmo/mochi-1-preview)
 12. [Wan2.1-Fun](https://huggingface.co/collections/alibaba-pai/wan21-fun-v11-680f514c89fe7b4df9d44f17)
-13. [Wan2.1-FLF2V](https://huggingface.co/Wan-AI/Wan2.1-FLF2V-14B-720P) `首尾帧`
-14. [MAGI-1](https://github.com/SandAI-org/MAGI-1) `自回归模型`
+13. [Wan2.1-FLF2V](https://huggingface.co/Wan-AI/Wan2.1-FLF2V-14B-720P) `First and Last Frame`
+14. [MAGI-1](https://github.com/SandAI-org/MAGI-1) `Autoregressive Model`
 15. [SkyReels-V2](https://github.com/SkyworkAI/SkyReels-V2)
 16. [FramePack](https://github.com/lllyasviel/FramePack)
 17. [Pusa-VidGen](https://github.com/Yaofang-Liu/Pusa-VidGen)
 18. [Wan2.2](https://github.com/Wan-Video/Wan2.2)
-19. [MoGA](https://arxiv.org/pdf/2510.18692) `长视频`
+19. [MoGA](https://arxiv.org/pdf/2510.18692) `Long Video`
 20. [LongCat-Video](https://huggingface.co/meituan-longcat/LongCat-Video)
 21. [HunyuanVideo-1.5](https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5)
 22. [LTX-2](https://huggingface.co/Lightricks/LTX-2)
     - [Training](https://github.com/Lightricks/LTX-2/blob/main/packages/ltx-trainer/README.md)
 
-#### 编辑
+#### Editing
 
 1. Wan2.1-VACE-14B: https://huggingface.co/Wan-AI/Wan2.1-VACE-14B
 2. Ditto: https://github.com/EzioBy/Ditto
 
-#### 训练
+#### Training
 
 - https://github.com/hao-ai-lab/FastVideo
 - https://github.com/tdrussell/diffusion-pipe
@@ -534,12 +534,12 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
 - https://github.com/Yaofang-Liu/Mochi-Full-Finetuner
 - https://github.com/bghira/SimpleTuner
 
-#### 推理
+#### Inference
 
 - https://github.com/ModelTC/LightX2V
 - https://github.com/thu-ml/TurboDiffusion
 
-#### 实用工具
+#### Utilities
 
 - [PySceneDetect](https://github.com/Breakthrough/PySceneDetect): Python and OpenCV-based scene cut/transition detection program & library.
 - [DOVER](https://github.com/VQAssessment/DOVER): Video Quality Assessment on User Generated Contents from Aesthetic and Technical Perspectives.
@@ -548,9 +548,9 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 图片 Image
+## Image
 
-#### 生成
+#### Generation
 
 - [awesome-nano-banana](https://github.com/JimmyLv/awesome-nano-banana)
 - [Awesome-Nano-Banana-images](https://github.com/PicoTrex/Awesome-Nano-Banana-images)
@@ -563,7 +563,7 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
 - Qwen-Image-2512：https://huggingface.co/Qwen/Qwen-Image-2512
 - Z-Image：https://huggingface.co/Tongyi-MAI/Z-Image
 
-#### 编辑
+#### Editing
 
 - ChronoEdit-14B: https://huggingface.co/nvidia/ChronoEdit-14B-Diffusers
 - Eigen-Banana-Qwen-Image-Edit: https://huggingface.co/eigen-ai-labs/eigen-banana-qwen-image-edit
@@ -577,13 +577,13 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
   - Qwen-Image-Edit-2511-Multiple-Angles-LoRA: https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA
 - FireRed-Image-Edit: https://huggingface.co/FireRedTeam/FireRed-Image-Edit-1.0
 
-#### 统一
+#### Unified
 
 - GLM-Image: https://huggingface.co/zai-org/GLM-Image
 - https://huggingface.co/black-forest-labs/FLUX.2-klein-4B
   - https://huggingface.co/black-forest-labs/FLUX.2-klein-9B
 
-#### 训练
+#### Training
 
 - Ostris：https://github.com/ostris/ai-toolkit
 - FlymyAI：https://github.com/FlyMyAI/flymyai-lora-trainer
@@ -596,11 +596,11 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
 - OneTrainer: https://github.com/Nerogar/OneTrainer
 - Finetune LongCat-Image and Edit: https://github.com/meituan-longcat/LongCat-Image/tree/main/train_examples
 
-#### 评估
+#### Evaluation
 
 - ULMEvalKit：https://github.com/ULMEvalKit/ULMEvalKit
 
-#### 推理
+#### Inference
 
 - TypemovieInfer: https://github.com/typemovie/TypemovieInfer
 
@@ -608,7 +608,7 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 搜索 Search
+## Search
 
 1. [OpenSearch GPT](https://github.com/supermemoryai/opensearch-ai): SearchGPT / Perplexity clone, but personalised for you.
 2. [MindSearch](https://github.com/InternLM/MindSearch): An LLM-based Multi-agent Framework of Web Search Engine (like Perplexity.ai Pro and SearchGPT).
@@ -620,7 +620,7 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 语音 Speech
+## Speech
 
 #### TTS
 
@@ -677,9 +677,9 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 统一模型 Unified Model
+## Unified Model
 
-> 现在统一模型已经从`理解+生成`变成`理解+生成+编辑`
+> The unified model has evolved from `understanding+generation` to `understanding+generation+editing`
 
 - Emu-2：https://arxiv.org/abs/2312.13286
 - Emu-3：https://arxiv.org/abs/2409.18869
@@ -755,59 +755,59 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 书籍 Book
+## Book
 
-1. [《大规模语言模型：从理论到实践》](https://intro-llm.github.io/)
-2. [《大语言模型》](https://llmbook-zh.github.io/)
-3. [《动手学大模型Dive into LLMs》](https://github.com/Lordog/dive-into-llms)
-4. [《动手做AI Agent》](https://book.douban.com/subject/36884058/)
+1. [Large-Scale Language Models: From Theory to Practice](https://intro-llm.github.io/)
+2. [Large Language Models](https://llmbook-zh.github.io/)
+3. [Hands-on Learning for Large Models: Dive into LLMs](https://github.com/Lordog/dive-into-llms)
+4. [Hands-on AI Agents](https://book.douban.com/subject/36884058/)
 5. [《Build a Large Language Model (From Scratch)》](https://github.com/rasbt/LLMs-from-scratch)
-6. [《多模态大模型》](https://github.com/HCPLab-SYSU/Book-of-MLM)
+6. [Multimodal Large Models](https://github.com/HCPLab-SYSU/Book-of-MLM)
 7. [《Generative AI Handbook: A Roadmap for Learning Resources》](https://genai-handbook.github.io/)
 8. [《Understanding Deep Learning》](https://udlbook.github.io/udlbook/)
 9. [《Illustrated book to learn about Transformers & LLMs》](https://www.reddit.com/r/MachineLearning/comments/1ew1hws/p_illustrated_book_to_learn_about_transformers/)
 10. [《Building LLMs for Production: Enhancing LLM Abilities and Reliability with Prompting, Fine-Tuning, and RAG》](https://www.amazon.com/Building-LLMs-Production-Reliability-Fine-Tuning/dp/B0D4FFPFW8?crid=7OAXELUKGJE4&dib=eyJ2IjoiMSJ9.Qr3e3VSH8LSo_j1M7sV7GfS01q_W1LDYd2uGlvGJ8CW-t4DTlng6bSeOlZBryhp6HJN5K1HqWMVVgabU2wz2i9yLpy_AuaZN-raAEbenKx2NHtzZA3A4k-N7GpnldF1baCarA_V1CRF-aCdc9_3WSX7SaEzmpyDv22TTyltcKT74HAb2KiQqBGLhQS3cEAnzChcqGa1Xp-XhbMnplVwT7xZLApE3tGLhDOgi5GmSi9w.8SY_4NBEkm68YF4GwhDnz0r81ZB1d8jr-gK9IMJE5AE&dib_tag=se&keywords=building+llms+for+production&qid=1716376414&sprefix=building+llms+for+production,aps,101&sr=8-1&linkCode=sl1&tag=whatsai06-20&linkId=ee102fda07a0eb51710fcdd8b8d20c28&language=en_US&ref_=as_li_ss_tl)
-11. [《大型语言模型实战指南：应用实践与场景落地》](https://github.com/liucongg/LLMsBook)
+11. [Large Language Models in Practice: Applied Practice and Scenario Deployment](https://github.com/liucongg/LLMsBook)
 12. [《Hands-On Large Language Models》](https://github.com/handsOnLLM/Hands-On-Large-Language-Models)
-13. [《自然语言处理：大模型理论与实践》](https://nlp-book.swufenlp.group/)
-14. [《动手学强化学习》](https://hrl.boyuai.com/)
-15. [《面向开发者的LLM入门教程》](https://datawhalechina.github.io/llm-cookbook/#/)
-16. [《大模型基础》](https://github.com/ZJU-LLMs/Foundations-of-LLMs)
+13. [Natural Language Processing: Large Model Theory and Practice](https://nlp-book.swufenlp.group/)
+14. [Hands-on Reinforcement Learning](https://hrl.boyuai.com/)
+15. [LLM Getting Started Tutorial for Developers](https://datawhalechina.github.io/llm-cookbook/#/)
+16. [Foundations of Large Models](https://github.com/ZJU-LLMs/Foundations-of-LLMs)
 17. [Taming LLMs: A Practical Guide to LLM Pitfalls with Open Source Software ](https://www.tamingllms.com/)
 18. [Foundations of Large Language Models](https://arxiv.org/abs/2501.09223)
 19. [Textbook on reinforcement learning from human feedback](https://github.com/natolambert/rlhf-book)
-20. [《大模型算法：强化学习、微调与对齐》](https://book.douban.com/subject/37331056/)
+20. [Large Model Algorithms: Reinforcement Learning, Fine-Tuning and Alignment](https://book.douban.com/subject/37331056/)
 21. [《The Smol Training Playbook: The Secrets to Building World-Class LLMs》](https://github.com/WangRongsheng/awesome-LLM-resources/blob/main/books/the-smol-training-playbook-the-secrets-to-building-world-class-llms.pdf)
-22. [《从零开始构建智能体》——从零开始的智能体原理与实践教程](https://github.com/datawhalechina/hello-agents)
+22. [Building Agents from Scratch — Principles and Practice Tutorial](https://github.com/datawhalechina/hello-agents)
 
 <div align="right">
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 课程 Course
+## Course
 
 > [LLM Resources Hub](https://llmresourceshub.vercel.app/)
 
-1. [斯坦福 CS224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/)
-2. [吴恩达: Generative AI for Everyone](https://www.deeplearning.ai/courses/generative-ai-for-everyone/)
-3. [吴恩达: LLM series of courses](https://learn.deeplearning.ai/)
+1. [Stanford CS224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/)
+2. [Andrew Ng: Generative AI for Everyone](https://www.deeplearning.ai/courses/generative-ai-for-everyone/)
+3. [Andrew Ng: LLM series of courses](https://learn.deeplearning.ai/)
 4. [ACL 2023 Tutorial: Retrieval-based Language Models and Applications](https://acl2023-retrieval-lm.github.io/)
 5. [llm-course: Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.](https://github.com/mlabonne/llm-course)
-6. [微软: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners)
-7. [微软: State of GPT](https://www.youtube.com/watch?v=bZQun8Y4L2A)
+6. [Microsoft: Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners)
+7. [Microsoft: State of GPT](https://www.youtube.com/watch?v=bZQun8Y4L2A)
 8. [HuggingFace NLP Course](https://huggingface.co/learn/nlp-course/chapter1/1)
-9. [清华 NLP 刘知远团队大模型公开课](https://www.bilibili.com/video/BV1UG411p7zv/?vd_source=c739db1ebdd361d47af5a0b8497417db)
-10. [斯坦福 CS25: Transformers United V4](https://web.stanford.edu/class/cs25/)
-11. [斯坦福 CS324: Large Language Models](https://stanford-cs324.github.io/winter2022/)
-12. [普林斯顿 COS 597G (Fall 2022): Understanding Large Language Models](https://www.cs.princeton.edu/courses/archive/fall22/cos597G/)
-13. [约翰霍普金斯 CS 601.471/671 NLP: Self-supervised Models](https://self-supervised.cs.jhu.edu/sp2023/index.html)
-14. [李宏毅 GenAI课程](https://www.youtube.com/watch?v=yiY4nPOzJEg&list=PLJV_el3uVTsOePyfmkfivYZ7Rqr2nMk3W)
+9. [Tsinghua NLP Group (Liu Zhiyuan) Large Model Public Course](https://www.bilibili.com/video/BV1UG411p7zv/?vd_source=c739db1ebdd361d47af5a0b8497417db)
+10. [Stanford CS25: Transformers United V4](https://web.stanford.edu/class/cs25/)
+11. [Stanford CS324: Large Language Models](https://stanford-cs324.github.io/winter2022/)
+12. [Princeton COS 597G (Fall 2022): Understanding Large Language Models](https://www.cs.princeton.edu/courses/archive/fall22/cos597G/)
+13. [Johns Hopkins CS 601.471/671 NLP: Self-supervised Models](https://self-supervised.cs.jhu.edu/sp2023/index.html)
+14. [Hung-yi Lee (Li Hongyi) GenAI Course](https://www.youtube.com/watch?v=yiY4nPOzJEg&list=PLJV_el3uVTsOePyfmkfivYZ7Rqr2nMk3W)
 15. [openai-cookbook](https://github.com/openai/openai-cookbook): Examples and guides for using the OpenAI API.
 16. [Hands on llms](https://github.com/iusztinpaul/hands-on-llms): Learn about LLM, LLMOps, and vector DBS for free by designing, training, and deploying a real-time financial advisor LLM system.
-17. [滑铁卢大学 CS 886: Recent Advances on Foundation Models](https://cs.uwaterloo.ca/~wenhuche/teaching/cs886/)
+17. [University of Waterloo CS 886: Recent Advances on Foundation Models](https://cs.uwaterloo.ca/~wenhuche/teaching/cs886/)
 18. [Mistral: Getting Started with Mistral](https://www.deeplearning.ai/short-courses/getting-started-with-mistral/)
-19. [斯坦福 CS25: Transformers United V4](https://web.stanford.edu/class/cs25/)
-20. [Coursera: Chatgpt 应用提示工程](https://www.coursera.org/learn/prompt-engineering)
+19. [Stanford CS25: Transformers United V4](https://web.stanford.edu/class/cs25/)
+20. [Coursera: ChatGPT Prompt Engineering Application](https://www.coursera.org/learn/prompt-engineering)
 21. [LangGPT](https://github.com/langgptai/LangGPT): Empowering everyone to become a prompt expert!
 22. [mistralai-cookbook](https://github.com/mistralai/cookbook)
 23. [Introduction to Generative AI 2024 Spring](https://speech.ee.ntu.edu.tw/~hylee/genai/2024-spring.php)
@@ -816,7 +816,7 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
 26. [Knowledge Graphs for RAG](https://www.deeplearning.ai/short-courses/knowledge-graphs-rag/)
 27. [LLMs From Scratch (Datawhale Version)](https://github.com/datawhalechina/llms-from-scratch-cn)
 28. [OpenRAG](https://openrag.notion.site/Open-RAG-c41b2a4dcdea4527a7c1cd998e763595)
-29. [通往AGI之路](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e)
+29. [Road to AGI](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e)
 30. [Andrej Karpathy - Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
 31. [Interactive visualization of Transformer](https://poloclub.github.io/transformer-explainer/)
 32. [andysingal/llm-course](https://github.com/andysingal/llm-course)
@@ -837,55 +837,55 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
 47. [LLM Evaluation: A Complete Course](https://www.comet.com/site/llm-course/)
 48. [HuggingFace Learn](https://huggingface.co/learn)
 49. [Andrej Karpathy: Deep Dive into LLMs like ChatGPT](https://www.youtube.com/watch?v=7xTGNNLPyMI)
-50. [LLM技术科普](https://github.com/karminski/one-small-step)
+50. [LLM Technology Overview](https://github.com/karminski/one-small-step)
 51. [CS25: Transformers United V5](https://web.stanford.edu/class/cs25/)
 52. [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques): This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. RAG systems combine information retrieval with generative models to provide accurate and contextually rich responses.
-53. [100+ LLM & RL Algorithm Maps | 原创 LLM / RL 100+原理图](https://github.com/changyeyu/LLM-RL-Visualized)
+53. [100+ LLM & RL Algorithm Maps | Original LLM / RL 100+ Principle Diagrams](https://github.com/changyeyu/LLM-RL-Visualized)
 54. [Reinforcement Learning of Large Language Models](https://ernestryu.com/courses/RL-LLM.html)
 55. [NanoChat](https://github.com/karpathy/nanochat): The best ChatGPT that $100 can buy.
-56. [斯坦福CS146S: The Modern Software Developer](https://themodernsoftware.dev/)
+56. [Stanford CS146S: The Modern Software Developer](https://themodernsoftware.dev/)
 
 <div align="right">
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 教程 Tutorial
+## Tutorial
 
-1. [动手学大模型应用开发](https://datawhalechina.github.io/llm-universe/#/)
-2. [AI开发者频道](https://techdiylife.github.io/blog/blog_list.html)
-3. [B站：五里墩茶社](https://space.bilibili.com/615957867/?spm_id_from=333.999.0.0)
-4. [B站：木羽Cheney](https://space.bilibili.com/3537113897241540/?spm_id_from=333.999.0.0)
+1. [Hands-on LLM Application Development](https://datawhalechina.github.io/llm-universe/#/)
+2. [AI Developer Channel](https://techdiylife.github.io/blog/blog_list.html)
+3. [Bilibili: Wulidun Teahouse](https://space.bilibili.com/615957867/?spm_id_from=333.999.0.0)
+4. [Bilibili: Muyu Cheney](https://space.bilibili.com/3537113897241540/?spm_id_from=333.999.0.0)
 5. [YTB：AI Anytime](https://www.youtube.com/channel/UC-zVytOQB62OwMhKRi0TDvg)
-6. [B站：漆妮妮](https://space.bilibili.com/1262370256/?spm_id_from=333.999.0.0)
+6. [Bilibili: Qi Nini](https://space.bilibili.com/1262370256/?spm_id_from=333.999.0.0)
 7. [Prompt Engineering Guide](https://www.promptingguide.ai/)
-8. [YTB: AI超元域](https://www.youtube.com/@AIsuperdomain)
-9. [B站：TechBeat人工智能社区](https://space.bilibili.com/209732435)
-10. [B站：黄益贺](https://space.bilibili.com/322961825)
-11. [B站：深度学习自然语言处理](https://space.bilibili.com/507524288)
+8. [YTB: AI Super Domain](https://www.youtube.com/@AIsuperdomain)
+9. [Bilibili: TechBeat AI Community](https://space.bilibili.com/209732435)
+10. [Bilibili: Huang Yihe](https://space.bilibili.com/322961825)
+11. [Bilibili: Deep Learning NLP](https://space.bilibili.com/507524288)
 12. [LLM Visualization](https://bbycroft.net/llm)
-13. [知乎: 原石人类](https://www.zhihu.com/people/zhang-shi-tou-88-98/posts)
-14. [B站：小黑黑讲AI](https://space.bilibili.com/1963375439/?spm_id_from=333.999.0.0)
-15. [B站：面壁的车辆工程师](https://space.bilibili.com/669720247/?spm_id_from=333.999.0.0)
-16. [B站：AI老兵文哲](https://space.bilibili.com/472543316/?spm_id_from=333.999.0.0)
+13. [Zhihu: Yuanshi Renlei (Original Stone Human)](https://www.zhihu.com/people/zhang-shi-tou-88-98/posts)
+14. [Bilibili: Xiaohei Explains AI](https://space.bilibili.com/1963375439/?spm_id_from=333.999.0.0)
+15. [Bilibili: Facing-the-Wall Vehicle Engineer](https://space.bilibili.com/669720247/?spm_id_from=333.999.0.0)
+16. [Bilibili: AI Veteran Wenzhe](https://space.bilibili.com/472543316/?spm_id_from=333.999.0.0)
 17. [Large Language Models (LLMs) with Colab notebooks](https://mlabonne.github.io/blog/)
 18. [YTB：IBM Technology](https://www.youtube.com/@IBMTechnology)
 19. [YTB: Unify Reading Paper Group](https://www.youtube.com/playlist?list=PLwNuX3xB_tv91QvDXlW2TjrLGHW51uMul)
 20. [Chip Huyen](https://huyenchip.com/blog/)
 21. [How Much VRAM](https://github.com/AlexBodner/How_Much_VRAM)
-22. [Blog: 科学空间（苏剑林）](https://kexue.fm/)
+22. [Blog: Science Space (Su Jianlin)](https://kexue.fm/)
 23. [YTB: Hyung Won Chung](https://www.youtube.com/watch?v=dbo3kNKPaUA)
 24. [Blog: Tejaswi kashyap](https://medium.com/@tejaswi_kashyap)
-25. [Blog: 小昇的博客](https://xiaosheng.blog/)
-26. [知乎: ybq](https://www.zhihu.com/people/ybq-29-32/posts)
+25. [Blog: Xiaosheng's Blog](https://xiaosheng.blog/)
+26. [Zhihu: ybq](https://www.zhihu.com/people/ybq-29-32/posts)
 27. [W&B articles](https://wandb.ai/fully-connected)
 28. [Huggingface Blog](https://huggingface.co/blog/zh)
 29. [Blog: GbyAI](https://gby.ai/)
 30. [Blog: mlabonne](https://mlabonne.github.io/blog/)
 31. [LLM-Action](https://github.com/liguodongiot/llm-action)
 32. [Blog: Lil’Log (OponAI)](https://lilianweng.github.io/)
-33. [B站: 毛玉仁](https://space.bilibili.com/3546823125895398)
+33. [Bilibili: Mao Yuren](https://space.bilibili.com/3546823125895398)
 34. [AI-Guide-and-Demos](https://github.com/Hoper-J/AI-Guide-and-Demos-zh_CN)
-35. [cnblog: 第七子](https://www.cnblogs.com/theseventhson)
+35. [cnblog: The Seventh Son](https://www.cnblogs.com/theseventhson)
 36. [Implementation of all RAG techniques in a simpler way.](https://github.com/FareedKhan-dev/all-rag-techniques)
 37. [Theoretical Machine Learning: A Handbook for Everyone](https://www.tengjiaye.com/mlbook.html)
 
@@ -893,7 +893,7 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 论文 Paper
+## Paper
 
 > [!NOTE]
 > 🤝[Huggingface Daily Papers](https://huggingface.co/papers)、[Cool Papers](https://papers.cool/)、[ML Papers Explained](https://github.com/dair-ai/ML-Papers-Explained)
@@ -963,9 +963,9 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 社区 Community
+## Community
 
-1. [魔乐社区](https://modelers.cn/)
+1. [Modelers Community](https://modelers.cn/)
 2. [HuggingFace](https://huggingface.co/)
 3. [ModelScope](https://modelscope.cn/)
 4. [WiseModel](https://www.wisemodel.cn/)
@@ -975,13 +975,13 @@ To speed up Long-context LLMs' inference, approximate and dynamic sparse calcula
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 模型上下文协议 MCP
+## MCP
 
-1. [MCP是啥？技术原理是什么？一个视频搞懂MCP的一切。Windows系统配置MCP，Cursor,Cline 使用MCP](https://www.youtube.com/watch?v=McNRkd5CxFY)
-2. [MCP是什么？为啥是下一代AI标准？MCP原理+开发实战！在Cursor、Claude、Cline中使用MCP，让AI真正自动化！](https://www.youtube.com/watch?v=jGVsLeDxtQY)
-3. [从零编写MCP并发布上线，超简单！手把手教程](https://www.youtube.com/watch?v=a3U-JrFkA9s)
+1. [What is MCP? What is the technical principle? Understand everything about MCP in one video. Configure MCP on Windows, use MCP with Cursor and Cline](https://www.youtube.com/watch?v=McNRkd5CxFY)
+2. [What is MCP? Why is it the next-generation AI standard? MCP principles + development practice! Use MCP in Cursor, Claude, and Cline to truly automate AI!](https://www.youtube.com/watch?v=jGVsLeDxtQY)
+3. [Write and publish MCP from scratch, super simple! Step-by-step tutorial](https://www.youtube.com/watch?v=a3U-JrFkA9s)
 
-MCP工具聚合：
+MCP Tool Aggregation:
 1. [smithery.ai](https://smithery.ai/)
 2. [mcp.so](https://mcp.so/)
 3. [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
@@ -1003,9 +1003,9 @@ MCP工具聚合：
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 技能 Skills
+## Skills
 
-1. [Agent Skills (Claude Skills) 详细攻略，一期视频精通](https://www.bilibili.com/video/BV1HuiyBQE9G)
+1. [Agent Skills (Claude Skills) Detailed Guide, Master in One Video](https://www.bilibili.com/video/BV1HuiyBQE9G)
 2. [OpenClaw](https://docs.openclaw.ai/zh-CN)
 
 
@@ -1014,7 +1014,7 @@ MCP工具聚合：
 3. [Skillsmp](https://skillsmp.com/)
 4. [awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills)
 5. [ClawHub](https://clawhub.ai/)
-6. [水产市场](https://openclawmp.cc/)
+6. [Skills Marketplace (水产市场)](https://openclawmp.cc/)
 7. [Skills.Sh](https://skills.sh/)
 8. [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
 9. [llmbase](https://llmbase.ai/openclaw/)
@@ -1029,11 +1029,11 @@ MCP工具聚合：
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 推理 Open o1
+## Open o1
 
 > [!NOTE]
 > 
-> 开放的技术是我们永恒的追求
+> Open technology is our eternal pursuit
 
 1. https://github.com/atfortes/Awesome-LLM-Reasoning
 2. https://github.com/hijkzzz/Awesome-LLM-Strawberry
@@ -1173,7 +1173,7 @@ MCP工具聚合：
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 推理 Open o3
+## Open o3
 
 1. Mini-o3: https://arxiv.org/abs/2509.07969
 2. Simple-o3: https://arxiv.org/abs/2508.12109
@@ -1184,7 +1184,7 @@ MCP工具聚合：
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 小语言模型 Small Language Model
+## Small Language Model
 
 1. https://github.com/jiahe7ay/MINI_LLM
 2. https://github.com/jingyaogong/minimind
@@ -1194,7 +1194,7 @@ MCP工具聚合：
 6. https://github.com/Tongjilibo/build_MiniLLM_from_scratch
 7. https://github.com/jzhang38/TinyLlama
 8. https://github.com/AI-Study-Han/Zero-Chatgpt
-9. https://github.com/loubnabnl/nanotron-smol-cluster ([使用Cosmopedia训练cosmo-1b](https://huggingface.co/blog/zh/cosmopedia))
+9. https://github.com/loubnabnl/nanotron-smol-cluster ([Training cosmo-1b with Cosmopedia](https://huggingface.co/blog/zh/cosmopedia))
 10. https://github.com/charent/Phi2-mini-Chinese
 11. https://github.com/allenai/OLMo
 12. https://github.com/keeeeenw/MicroLlama
@@ -1208,7 +1208,7 @@ MCP工具聚合：
 20. https://github.com/qibin0506/Cortex
 21. https://github.com/huggingface/picotron
 22. https://github.com/Alic-Li/Mini_RWKV_7
-23. https://huggingface.co/Nanbeige/Nanbeige4-3B-Thinking-2511 `23T tokens预训练模型`
+23. https://huggingface.co/Nanbeige/Nanbeige4-3B-Thinking-2511 `23T tokens pre-trained model`
 24. https://github.com/stepfun-ai/SteptronOss
 
 
@@ -1216,7 +1216,7 @@ MCP工具聚合：
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 小多模态模型 Small Vision Language Model
+## Small Vision Language Model
 
 1. https://github.com/jingyaogong/minimind-v
 2. https://github.com/yuanzhoulvpi2017/zero_nlp/tree/main/train_llava
@@ -1237,12 +1237,12 @@ MCP工具聚合：
     <b><a href="#Contents">↥ back to top</a></b>
 </div>
 
-## 技巧 Tips
+## Tips
 
 1. [What We Learned from a Year of Building with LLMs (Part I)](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/)
 2. [What We Learned from a Year of Building with LLMs (Part II)](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-ii/)
 3. [What We Learned from a Year of Building with LLMs (Part III): Strategy](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-iii-strategy/)
-4. [轻松入门大语言模型（LLM）](https://www.bilibili.com/video/BV1pF4m1V7FB/?spm_id_from=333.999.0.0&vd_source=c739db1ebdd361d47af5a0b8497417db)
+4. [Easy Introduction to Large Language Models (LLM)](https://www.bilibili.com/video/BV1pF4m1V7FB/?spm_id_from=333.999.0.0&vd_source=c739db1ebdd361d47af5a0b8497417db)
 5. [LLMs for Text Classification: A Guide to Supervised Learning](https://www.striveworks.com/blog/llms-for-text-classification-a-guide-to-supervised-learning)
 6. [Unsupervised Text Classification: Categorize Natural Language With LLMs](https://www.striveworks.com/blog/unsupervised-text-classification-how-to-use-llms-to-categorize-natural-language-data)
 7. [Text Classification With LLMs: A Roundup of the Best Methods](https://www.striveworks.com/blog/text-classification-with-llms-a-roundup-of-the-best-methods)
@@ -1255,15 +1255,15 @@ MCP工具聚合：
 14. [MPP-LLaVA](https://github.com/Coobiw/MPP-LLaVA)
 15. [build_MiniLLM_from_scratch](https://github.com/Tongjilibo/build_MiniLLM_from_scratch)
 16. [Tiny LLM zh](https://github.com/wdndev/tiny-llm-zh)
-17. [MiniMind](https://github.com/jingyaogong/minimind): 3小时完全从0训练一个仅有26M的小参数GPT，最低仅需2G显卡即可推理训练.
-18. [LLM-Travel](https://github.com/Glanvery/LLM-Travel): 致力于深入理解、探讨以及实现与大模型相关的各种技术、原理和应用
+17. [MiniMind](https://github.com/jingyaogong/minimind): Train a tiny 26M parameter GPT from scratch in 3 hours, requires only 2GB GPU memory for inference and training.
+18. [LLM-Travel](https://github.com/Glanvery/LLM-Travel): Dedicated to deeply understanding, exploring, and implementing various technologies, principles, and applications related to large models.
 19. [Knowledge distillation: Teaching LLM's with synthetic data](https://wandb.ai/byyoung3/ML_NEWS3/reports/Knowledge-distillation-Teaching-LLM-s-with-synthetic-data--Vmlldzo5MTMyMzA2)
 20. [Part 1: Methods for adapting large language models](https://ai.meta.com/blog/adapting-large-language-models-llms/)
 21. [Part 2: To fine-tune or not to fine-tune](https://ai.meta.com/blog/when-to-fine-tune-llms-vs-other-techniques/)
 22. [Part 3: How to fine-tune: Focus on effective datasets](https://ai.meta.com/blog/how-to-fine-tune-llms-peft-dataset-curation/)
 23. [Reader-LM: Small Language Models for Cleaning and Converting HTML to Markdown](https://jina.ai/news/reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown/?nocache=1)
-24. [LLMs应用构建一年之心得](https://iangyan.github.io/2024/09/08/building-with-llms-part-1/)
-25. [LLM训练-pretrain](https://zhuanlan.zhihu.com/p/718354385)
+24. [One Year of Insights Building LLM Applications](https://iangyan.github.io/2024/09/08/building-with-llms-part-1/)
+25. [LLM Training - Pretrain](https://zhuanlan.zhihu.com/p/718354385)
 26. [pytorch-llama](https://github.com/hkproj/pytorch-llama): LLaMA 2 implemented from scratch in PyTorch.
 27. [Preference Optimization for Vision Language Models with TRL](https://huggingface.co/blog/dpo_vlm) 【[support model](https://huggingface.co/docs/transformers/model_doc/auto#transformers.AutoModelForVision2Seq)】
 28. [Fine-tuning visual language models using SFTTrainer](https://huggingface.co/blog/vlms) 【[docs](https://huggingface.co/docs/trl/sft_trainer#extending-sfttrainer-for-vision-language-models)】
@@ -1272,10 +1272,10 @@ MCP工具聚合：
 31. [Distributed Training Guide](https://github.com/LambdaLabsML/distributed-training-guide): Best practices & guides on how to write distributed pytorch training code.
 32. [Chat Templates](https://hf-mirror.com/blog/chat-templates)
 33. [Top 20+ RAG Interview Questions](https://www.analyticsvidhya.com/blog/2024/04/rag-interview-questions/)
-34. [LLM-Dojo 开源大模型学习场所，使用简洁且易阅读的代码构建模型训练框架](https://github.com/mst272/LLM-Dojo)
+34. [LLM-Dojo: An open-source large model learning resource, building a model training framework with concise and readable code](https://github.com/mst272/LLM-Dojo)
 35. [o1 isn’t a chat model (and that’s the point)](https://www.latent.space/p/o1-skill-issue)
-36. [Beam Search快速理解及代码解析](https://www.cnblogs.com/nickchen121/p/15499576.html)
-37. [基于 transformers 的 generate() 方法实现多样化文本生成：参数含义和算法原理解读](https://blog.csdn.net/muyao987/article/details/125917234)
+36. [Quick Understanding and Code Analysis of Beam Search](https://www.cnblogs.com/nickchen121/p/15499576.html)
+37. [Diverse Text Generation with the transformers generate() Method: Parameter Meanings and Algorithm Principles](https://blog.csdn.net/muyao987/article/details/125917234)
 38. [The Ultra-Scale Playbook: Training LLMs on GPU Clusters](https://huggingface.co/spaces/nanotron/ultrascale-playbook)
 
 <div align="right">
@@ -1284,13 +1284,13 @@ MCP工具聚合：
 
 ![](https://camo.githubusercontent.com/2722992d519a722218f896d5f5231d49f337aaff4514e78bd59ac935334e916a/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67)
 
-贡献者:
+Contributors:
 
 <a href="https://github.com/WangRongsheng/awesome-LLM-resources/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=WangRongsheng/awesome-LLM-resources" />
 </a>
 
-如果你觉得本项目对你有帮助，欢迎引用：
+If you find this project helpful, please consider citing:
 ```bib
 @misc{wang2024llm,
       title={awesome-LLM-resourses}, 
